@@ -3,7 +3,7 @@ import select
 import socket
 
 from ToiPackage import ToiHelper
-from ToiProxy import ToiProxy
+from ToiPackage.ToiProxy import ToiProxy
 
 logger = logging.getLogger("TOIServer")
 
